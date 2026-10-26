@@ -19,6 +19,8 @@ A reproducible starter project demonstrating a **Random Forest classification wo
 ├── notebooks/
 │   └── RandomForest_Example.ipynb
 ├── random_forest_classifier.py
+├── outputs/                     # Generated figures (created when script runs)
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
@@ -66,6 +68,8 @@ This lightweight structure is suitable for a small example project: the notebook
    python -m pip install -r requirements.txt
    python random_forest_classifier.py
    ```
+
+The script creates an `outputs/` directory and saves the confusion matrix and feature-importance figure there.
 
    To explore the notebook, start Jupyter:
 
