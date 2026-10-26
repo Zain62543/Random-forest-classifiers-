@@ -13,6 +13,11 @@ from sklearn.metrics import (
 )
 import matplotlib.pyplot as plt
 import seaborn as sns
+from pathlib import Path
+
+# Keep generated figures separate from source files.
+OUTPUT_DIR = Path("outputs")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # 2. Load the Iris dataset
 iris = load_iris()
@@ -79,7 +84,7 @@ plt.title("Random Forest - Confusion Matrix")
 plt.xlabel("Predicted Class")
 plt.ylabel("Actual Class")
 plt.tight_layout()
-plt.savefig("confusion_matrix.png", dpi=300)
+plt.savefig(OUTPUT_DIR / "confusion_matrix.png", dpi=300)
 plt.show()
 
 # 9. Plot feature importance
@@ -89,7 +94,7 @@ plt.title("Random Forest - Feature Importance")
 plt.xlabel("Importance")
 plt.ylabel("Feature")
 plt.tight_layout()
-plt.savefig("feature_importance.png", dpi=300)
+plt.savefig(OUTPUT_DIR / "feature_importance.png", dpi=300)
 plt.show()
 
 # 10. Predict the class of a new flower
