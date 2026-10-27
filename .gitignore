@@ -1,6 +1,11 @@
-# Python bytecode and caches
+# Python bytecode, caches and packaging
 __pycache__/
 *.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
 
 # Virtual environments
 .venv/

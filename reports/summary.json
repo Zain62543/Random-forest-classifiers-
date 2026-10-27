@@ -1,0 +1,57 @@
+{
+  "dataset": "Iris",
+  "n_samples": 150,
+  "n_features": 4,
+  "seed": 42,
+  "best_model_on_test": "Logistic Regression",
+  "tuned": [
+    {
+      "Model": "Logistic Regression",
+      "Best CV Accuracy": 0.9666666667,
+      "Best Params": {
+        "C": 10
+      }
+    },
+    {
+      "Model": "Decision Tree",
+      "Best CV Accuracy": 0.9583333333,
+      "Best Params": {
+        "criterion": "gini",
+        "max_depth": null,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "Model": "Random Forest",
+      "Best CV Accuracy": 0.9666666667,
+      "Best Params": {
+        "max_depth": null,
+        "min_samples_split": 5,
+        "n_estimators": 200
+      }
+    }
+  ],
+  "test": [
+    {
+      "Model": "Logistic Regression",
+      "Test Accuracy": 1.0,
+      "Macro Precision": 1.0,
+      "Macro Recall": 1.0,
+      "Macro F1": 1.0
+    },
+    {
+      "Model": "Decision Tree",
+      "Test Accuracy": 0.9666666667,
+      "Macro Precision": 0.9696969697,
+      "Macro Recall": 0.9666666667,
+      "Macro F1": 0.9665831245
+    },
+    {
+      "Model": "Random Forest",
+      "Test Accuracy": 0.9666666667,
+      "Macro Precision": 0.9696969697,
+      "Macro Recall": 0.9666666667,
+      "Macro F1": 0.9665831245
+    }
+  ]
+}
