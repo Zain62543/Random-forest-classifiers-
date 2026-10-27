@@ -1,6 +1,6 @@
 # ML Classification Benchmark
 
-[![CI](https://github.com/Zain62543/Random-forest-classifiers-/actions/workflows/ci.yml/badge.svg)](https://github.com/Zain62543/Random-forest-classifiers-/actions/workflows/ci.yml)
+[![CI](https://github.com/Zain62543/ml-classification-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/Zain62543/ml-classification-benchmark/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -11,8 +11,8 @@ It ships with the Iris dataset as a demo and also accepts **your own CSV file**.
 ## Quick start
 
 ```bash
-git clone https://github.com/Zain62543/Random-forest-classifiers-.git
-cd Random-forest-classifiers-
+git clone https://github.com/Zain62543/ml-classification-benchmark.git
+cd ml-classification-benchmark
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 
