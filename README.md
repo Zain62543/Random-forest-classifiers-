@@ -83,6 +83,6 @@ Python packaging · scikit-learn pipelines · cross-validation and hyperparamete
 
 - GitHub: [Zain62543](https://github.com/Zain62543)
 - LinkedIn: [Zain Ud Din](https://www.linkedin.com/in/zain-ud-din-9152a2299/)
-- Email: [marwatzain543@gmail.com](mailto:marwatzain543@gmail.com)
+- Email: [marwatzain8@gmail.com](mailto:marwatzain8@gmail.com)
 
 Released under the [MIT License](LICENSE).
