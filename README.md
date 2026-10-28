@@ -82,7 +82,7 @@ Python packaging · scikit-learn pipelines · cross-validation and hyperparamete
 **Zain Ud Din**, MPhil Physics (Condensed Matter Physics) | Data Science, Machine Learning & Scientific Computing
 
 - GitHub: [Zain62543](https://github.com/Zain62543)
-- LinkedIn: [Zain Ud Din](https://www.linkedin.com/in/zain-ud-din-9152a2299/)
+- LinkedIn: [Zain Ud Din](https://www.linkedin.com/in/zain-ud-din/)
 - Email: [marwatzain8@gmail.com](mailto:marwatzain8@gmail.com)
 
 Released under the [MIT License](LICENSE).
